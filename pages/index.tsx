@@ -515,8 +515,10 @@ return (
                                     </li>
                                     <li className="mb-6">
                                         <a href="tel: 02111229090"
-                                            className="text-lg color-palette-1 text-decoration-none">021 - 1122 -
-                                            9090</a>
+                                            className="text-lg color-palette-1 text-decoration-none">
+021 - 1122 -
+                                            9090
+</a>
                                     </li>
                                 </ul>
                             </div>

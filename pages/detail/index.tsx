@@ -12,7 +12,7 @@ export default function Detail() {
                 <div className="col-xl-3 col-lg-4 col-md-5 pb-30 pb-md-0 pe-md-25 text-md-start">
                     <div className="row align-items-center">
                         <div className="col-md-12 col-4">
-                            <img src="../assets/img/Thumbnail-3.png" width="280" height="380" className="img-fluid" alt=""/>
+                            <img src="/img/Thumbnail-3.png" width="280" height="380" className="img-fluid" alt=""/>
                         </div>
                         {/* <!-- Mobile: Game title --> */}
                         <div className="col-md-12 col-8 d-md-none d-block">

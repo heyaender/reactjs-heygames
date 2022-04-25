@@ -1,6 +1,5 @@
 export default function NotFound() {
     return (
-        <>
         <section className="not-found mx-auto pt-145 pb-md-212 pb-100">
         <div className="container-fluid">
             <div className="text-center">
@@ -195,6 +194,5 @@ export default function NotFound() {
             </div>
         </div>
     </section>
-        </>
     )
 }

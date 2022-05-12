@@ -50,11 +50,46 @@ export default function MemberOverviewContent() {
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    <TableRow image='overview-4' title="Mobile Legends" category='Mobile' item={200} price={200000} status='Success' />
-                                    <TableRow image='overview-3' title="Seven Knight II" category='Mobile' item={100} price={4000000} status='Pending' />
-                                    <TableRow image='overview-2' title="PUBG" category='Mobile' item={400} price={350000} status='Failed' />
-                                    <TableRow image='overview-1' title="FreeFire" category='Mobile' item={700} price={900000} status='Success' />
-                                    <TableRow image='overview-1' title="Valorant" category='Desktop' item={540} price={440000} status='Success' />
+                                    <TableRow
+                                        image="overview-4"
+                                        title="Mobile Legends"
+                                        category="Mobile"
+                                        item={200}
+                                        price={200000}
+                                        status="Success"
+                                    />
+                                    <TableRow
+                                        image="overview-3"
+                                        title="Seven Knight II"
+                                        category="Mobile"
+                                        item={100}
+                                        price={4000000}
+                                        status="Pending"
+                                    />
+                                    <TableRow
+                                        image="overview-2"
+                                        title="PUBG"
+                                        category="Mobile"
+                                        item={400}
+                                        price={350000}
+                                        status="Failed"
+                                    />
+                                    <TableRow
+                                        image="overview-1"
+                                        title="FreeFire"
+                                        category="Mobile"
+                                        item={700}
+                                        price={900000}
+                                        status="Success"
+                                    />
+                                    <TableRow
+                                        image="overview-1"
+                                        title="Valorant"
+                                        category="Desktop"
+                                        item={540}
+                                        price={440000}
+                                        status="Success"
+                                    />
                                 </tbody>
                             </table>
                         </div>

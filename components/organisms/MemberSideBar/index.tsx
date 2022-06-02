@@ -23,7 +23,7 @@ export default function MemberSideBar(props: MemberSideBarProps) {
                         <MenuItem
                             title="Transactions"
                             icon="SideTransaction"
-                            url="member/trasactions"
+                            url="member/transactions"
                             active={activeMenu == 'transactions'}
                         />
                         <MenuItem

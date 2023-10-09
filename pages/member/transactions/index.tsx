@@ -1,5 +1,5 @@
 import MemberSideBar from '../../../components/organisms/MemberSideBar'
-import TransactionsContent from '../../../components/organisms/TransactionsContent'
+import TransactionsContent from '../../../components/organisms/TransactionContent'
 
 export default function Transactions() {
     return (

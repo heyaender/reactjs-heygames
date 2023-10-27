@@ -1,4 +1,5 @@
-import classNames from 'classnames'; 
+import React from 'react'
+import classNames from 'classnames'
 
 interface TableRowProps {
     image: string
@@ -12,10 +13,10 @@ interface TableRowProps {
 export default function TableRow(props: TableRowProps) {
     const { image, title, category, item, price, status } = props
     const statusClass = classNames({
-        'float-start icon-status' : true,
-        'success' : status == 'Success',
-        'pending' : status == 'Pending',
-        'failed' : status == 'Failed'
+        'float-start icon-status': true,
+        success: status == 'Success',
+        pending: status == 'Pending',
+        failed: status == 'Failed',
     })
     return (
         <>

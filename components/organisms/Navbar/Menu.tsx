@@ -1,4 +1,5 @@
 /* It's importing the classNames and Link from the next/link library. */
+import React from 'react'
 import classNames from 'classnames'
 import Link from 'next/link'
 

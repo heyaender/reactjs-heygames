@@ -65,7 +65,7 @@ export default function SignUpForm() {
                         role="button">Continue</button> --> */}
                 <a
                     className="btn btn-sign-in fw-medium text-lg color-palette-1 rounded-pill"
-                    href="/sign-in"
+                    href="sign-in"
                     role="button"
                 >
                     Sign In

@@ -1,5 +1,5 @@
 import type { NextPage } from 'next'
-import { useEffect } from 'react'
+import React, { useEffect } from 'react'
 import AOS from 'aos'
 import MainBanner from '../components/organisms/MainBanner'
 import TransactionStep from '../components/organisms/TransactionStep'

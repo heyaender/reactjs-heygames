@@ -1,3 +1,4 @@
+import React from 'react'
 import HeroImage from './HeroImage'
 
 export default function MainBanner() {

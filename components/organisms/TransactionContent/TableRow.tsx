@@ -1,3 +1,4 @@
+import React from 'react'
 import Link from 'next/link'
 import classNames from 'classnames'
 
@@ -12,11 +13,11 @@ interface TableRowProps {
 
 export default function TableRow(props: TableRowProps) {
     const { image, title, category, item, price, status } = props
-    const statusClass = classNames ({
-        'float-start icon-status' : true,
-        'pending': status == 'Pending',
-        'success': status == 'Success',
-        'failed' : status == 'Failed'
+    const statusClass = classNames({
+        'float-start icon-status': true,
+        pending: status == 'Pending',
+        success: status == 'Success',
+        failed: status == 'Failed',
     })
     return (
         <>
@@ -53,7 +54,7 @@ export default function TableRow(props: TableRowProps) {
                     </div>
                 </td>
                 <td>
-                    <Link href="/member/transactions/detail">
+                    <Link href="member/transactions/detail">
                         <a className="btn btn-status rounded-pill text-sm">
                             Details
                         </a>

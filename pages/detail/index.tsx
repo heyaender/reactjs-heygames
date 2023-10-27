@@ -1,3 +1,4 @@
+import React from 'react'
 import Navbar from '../../components/organisms/Navbar'
 import Footer from '../../components/organisms/Footer'
 import TopUpForm from '../../components/organisms/TopUpForm'

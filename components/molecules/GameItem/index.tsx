@@ -1,7 +1,8 @@
+import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 
-interface GameItemProps {
+export interface GameItemProps {
     title: string
     category: string
     thumbnail: string
@@ -26,7 +27,7 @@ export default function GameItem(props: GameItemProps) {
                         <div className="cover position-absolute bottom-0 m-32">
                             <div className="d-flex flex-column h-100 justify-content-between text-decoration-none">
                                 <div className="game-icon mx-auto">
-                                    <Image
+                                    <img
                                         src="/icon/joystick.svg"
                                         width={54}
                                         height={36}

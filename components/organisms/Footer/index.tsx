@@ -1,3 +1,4 @@
+import React from 'react'
 import FooterLinkItem from '../../molecules/FooterLinkItem'
 
 export default function index() {
@@ -33,19 +34,19 @@ export default function index() {
                                         <ul className="list-unstyled">
                                             <FooterLinkItem
                                                 title="About Us"
-                                                urlink="/about"
+                                                urlink="about"
                                             />
                                             <FooterLinkItem
                                                 title="Press Release"
-                                                urlink="/press"
+                                                urlink="press"
                                             />
                                             <FooterLinkItem
                                                 title="Term of Use"
-                                                urlink="/term"
+                                                urlink="term"
                                             />
                                             <FooterLinkItem
                                                 title="Privacy Policy"
-                                                urlink="/privacy"
+                                                urlink="privacy"
                                             />
                                         </ul>
                                     </div>
@@ -56,15 +57,15 @@ export default function index() {
                                         <ul className="list-unstyled">
                                             <FooterLinkItem
                                                 title="Refund Policy"
-                                                urlink="/refund"
+                                                urlink="refund"
                                             />
                                             <FooterLinkItem
                                                 title="Unlock Reward"
-                                                urlink="/unlock"
+                                                urlink="unlock"
                                             />
                                             <FooterLinkItem
                                                 title="Live Chatting"
-                                                urlink="/chat"
+                                                urlink="chat"
                                             />
                                         </ul>
                                     </div>
@@ -75,11 +76,11 @@ export default function index() {
                                         <ul className="list-unstyled">
                                             <FooterLinkItem
                                                 title="hi@haanstore.com"
-                                                urlink="/mail"
+                                                urlink="mail"
                                             />
                                             <FooterLinkItem
                                                 title="0816-663-942"
-                                                urlink="/hubungi"
+                                                urlink="hubungi"
                                             />
                                         </ul>
                                     </div>

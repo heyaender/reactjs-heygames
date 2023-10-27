@@ -1,3 +1,4 @@
+import React from 'react'
 import StepItem from '../../molecules/StepItem/index'
 
 export default function TransactionStep() {

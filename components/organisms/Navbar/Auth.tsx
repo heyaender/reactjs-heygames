@@ -1,3 +1,4 @@
+import React from 'react'
 import Link from 'next/link'
 
 /* A type definition for the props that the component will receive. */
@@ -35,7 +36,7 @@ export default function Auth(props: Partial<AuthProps>) {
                         aria-labelledby="dropdownMenuLink"
                     >
                         <li>
-                            <Link href="/member">
+                            <Link href="member">
                                 <a className="dropdown-item text-lg color-palette-2">
                                     My Profile
                                 </a>
@@ -49,14 +50,14 @@ export default function Auth(props: Partial<AuthProps>) {
                             </Link>
                         </li>
                         <li>
-                            <Link href="/member/edit-profile">
+                            <Link href="member/edit-profile">
                                 <a className="dropdown-item text-lg color-palette-2">
                                     Account Settings
                                 </a>
                             </Link>
                         </li>
                         <li>
-                            <Link href="/sign-in">
+                            <Link href="sign-in">
                                 <a className="dropdown-item text-lg color-palette-2">
                                     Log Out
                                 </a>
@@ -70,7 +71,7 @@ export default function Auth(props: Partial<AuthProps>) {
     return (
         /* A link to sign in page. */
         <li className="nav-item my-auto">
-            <Link href="/sign-in">
+            <Link href="sign-in">
                 <a
                     className="btn btn-sign-in d-flex justify-content-center ms-lg-2 rounded-pill"
                     role="button"

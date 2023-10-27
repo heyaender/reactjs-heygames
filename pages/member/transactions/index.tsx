@@ -1,3 +1,4 @@
+import React from 'react'
 import MemberSideBar from '../../../components/organisms/MemberSideBar'
 import TransactionsContent from '../../../components/organisms/TransactionContent'
 
